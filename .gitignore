@@ -1,0 +1,5 @@
+/Unity/Library
+/Unity/Temp
+/Unity/*.csproj
+/Unity/*.sln
+/Unity/.vs/Unity/v15/*.suo

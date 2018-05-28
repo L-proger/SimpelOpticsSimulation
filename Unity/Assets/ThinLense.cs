@@ -355,9 +355,9 @@ public class ThinLense : MonoBehaviour {
         Handles.matrix = transform.localToWorldMatrix;
 
 
-        Handles.DrawWireDisc(Vector3.zero, Vector3.up, RLense);
+        //Handles.DrawWireDisc(Vector3.zero, Vector3.up, RLense);
 
-        Gizmos.DrawWireSphere(Vector3.up * - SphereUtils.SphereCenterOffset(R1, RLense), R1);
+        //Gizmos.DrawWireSphere(Vector3.up * - SphereUtils.SphereCenterOffset(R1, RLense), R1);
 
         Handles.matrix = Matrix4x4.identity;
     }
